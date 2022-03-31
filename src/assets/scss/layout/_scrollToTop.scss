@@ -1,0 +1,26 @@
+.button-top {
+  z-index: $loading-z-index;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: $base-color;
+  color: $white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: $transition-2s;
+  -webkit-transition: $transition-2s;
+  -moz-transition: $transition-2s;
+  -ms-transition: $transition-2s;
+  -o-transition: $transition-2s;
+  &--show {
+    display: flex;
+  }
+}

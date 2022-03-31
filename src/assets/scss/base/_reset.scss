@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=#{$font}");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  appearance: none;
+  font-size: 1em;
+  outline: none;
+  font-family: $font-family;
+}
+select::-ms-expand {
+  display: none;
+}
+
+[type="radio"],
+[type="checkbox"] {
+  opacity: 0;
+}
+
+button,
+[type="button"],
+[type="radio"],
+[type="checkbox"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: none;
+  background: 0 none;
+  border: 0 none;
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+  letter-spacing: -0.05em;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="radio"]::-moz-focus-inner,
+[type="checkbox"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+
+textarea {
+  resize: none;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+input[type="number"] {
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+html,
+body {
+  font-family: $font-family;
+  font-size: $font-size;
+  color: $font-color;
+  box-sizing: border-box;
+  letter-spacing: -0.05em;
+  &.mobile {
+    font-size: 24px;
+    @media (max-width: 660px) {
+      font-size: 23px;
+    }
+    @media (max-width: 620px) {
+      font-size: 22px;
+    }
+    @media (max-width: 580px) {
+      font-size: 21px;
+    }
+    @media (max-width: 550px) {
+      font-size: 20px;
+    }
+    @media (max-width: 530px) {
+      font-size: 19px;
+    }
+    @media (max-width: 520px) {
+      font-size: 18px;
+    }
+    @media (max-width: 480px) {
+      font-size: 16px;
+    }
+    @media (max-width: 450px) {
+      font-size: 15px;
+    }
+    @media (max-width: 420px) {
+      font-size: 14px;
+    }
+    @media (max-width: 400px) {
+      font-size: 13px;
+    }
+    @media (max-width: 350px) {
+      font-size: 12px;
+    }
+    @media (max-width: 330px) {
+      font-size: 11px;
+    }
+  }
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+  text-align: left;
+}
+
+a {
+  display: inline-block;
+  color: $font-color;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  border: 0;
+}
+
+.scrollLock {
+  height: 100%;
+  overflow: hidden;
+}
+
+em,
+i {
+  font-style: normal;
+}

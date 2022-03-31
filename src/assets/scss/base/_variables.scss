@@ -1,0 +1,39 @@
+//z-index
+$header-z-index: 100;
+$menu-z-index: 101;
+$top-button-z-index: 99;
+$loading-z-index: 500;
+
+// color
+$white: #fff;
+$black: #111;
+$gray: #a5a5a5;
+$gray2: #717171;
+$bg-black: #1b1b1b;
+
+$base-color: #1351f9;
+
+$font-color: #a5a5a5;
+
+$border-color: #2f2f2f;
+
+//transition
+$base-transition: all 0.3s ease-in-out;
+$base-radio-transition: all 0.3s ease;
+$slide-transition: all 0.8s linear;
+$transition-2s: all 0.2s ease-in-out;
+
+// windowWith
+$base-pc-width: 1240px;
+
+// font
+$font: unquote(
+  "Noto+Sans+KR:100,300,400,500,700,900|Roboto:300,400,500,700,900&display=swap&subset=korean"
+);
+$font-family: "Roboto", "Noto Sans KR", sans-serif;
+
+$font-size: 14px;
+$font-sizeS: 12px;
+$font-sizeM: 16px;
+$font-sizeL: 20px;
+$font-sizeXL: 30px;
